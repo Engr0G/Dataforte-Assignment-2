@@ -1,0 +1,50 @@
+# The first Assignment
+
+price = [25, 257, 212, 116, 99, 35 ]
+
+total = 0
+
+for values in price:
+    total += values
+    print('the total is:', total)
+
+# The second Assingment
+
+africa = { 'Nigeria' : {'Capital': 'Abuja', 'Linguafrancea': 'English', 'GDP': ' $510B ', 'Region': ' West Africa ' },
+                           'Benin': {'Capital': 'Porto-Novo', 'Linguafrancea': 'French', 'GDP': ' $18B ', 'Region': ' West Africa  '},
+                           'Burkina Faso': {'Capital': 'ouagadougou', 'Linguafrancea': 'French', 'GDP': '$19B  ', 'Region': ' West Africa  '},
+                           'Cabo Verde': {'Capital': 'praia', 'Linguafrancea': ' Portuguese, Cape, Verdean Creole', 'GDP': ' $2.1B  ', 'Region': ' West Africa  '},
+                           'Cote dIvoire': {'Capital': 'Yamoussoukro', 'Linguafrancea': 'French', 'GDP': ' $75B ', 'Region': '  West Africa  '},
+                           'Gambia': {'Capital': 'Banjul', 'Linguafrancea': 'English', 'GDP': '$2.2B  ', 'Region': ' West Africa  '},
+                           'Ghana': {'Capital': 'Accra', 'Linguafrancea': ' English', 'GDP': ' $80B ', 'Region': ' West Africa  '}, 
+                           'Guinea': {'Capital': 'Conakry', 'Linguafrancea': 'French', 'GDP': ' $20B ', 'Region': ' West Africa  '},
+                           'Guinea-Bissau': {'Capital': 'Bissau', 'Linguafrancea': 'Portuguese, guinea-Bissau Creole', 'GDP': ' $1.9B ', 'Region': ' West Africa  '},
+                           'Liberia': {'Capital': 'Monrovia', 'Linguafrancea': 'English', 'GDP': '$3.5B  ', 'Region': ' West Africa  '},
+                           'Mali': {'Capital': 'Bamako', 'Linguafrancea': 'French', 'GDP': ' $20B ', 'Region': ' West Africa  '}, 
+                           'Mauritaniu': {'Capital': 'Nouakchott', 'Linguafrancea': 'French, Arabic', 'GDP': ' $3.5B  ', 'Region': ' West Africa  '}, 
+                           'Niger': {'Capital': 'Niamey', 'Linguafrancea': 'French, Huasa', 'GDP': ' $14B  ', 'Region': ' West Africa  '}, 
+                           'Senegal': {'Capital': 'Dakar', 'Linguafrancea': 'Franch, Wolof', 'GDP': '$31B  ', 'Region': ' West Africa  '}, 
+                           'sierra-leone': {'Capital': 'Freetown', 'Linguafrancea': 'English, krio', 'GDP': ' $4.5B ', 'Region': ' West Africa  '},
+                           'Togo': {'Capital': 'Lome', 'Linguafrancea': 'French', 'GDP': ' $8.5B ', 'Region': ' West Africa  '}, 
+
+ 'Kenya' : {'Capital' : 'nairobi', 'Linguafrancea' : 'Swahili, English', 'GDP' : ' $114B', 'Region' : 'East Africa' },
+                           'Tanzania' : {'Capital' : ' Dodoma ', 'Linguafrancea' : ' Swahili, English ', 'GDP' : ' $80B ', 'Region' : 'East Africa' },
+                          'Uganda' : {'Capital' : ' Kampala ', 'Linguafrancea' : ' Swahili, English ', 'GDP' : ' $50B', 'Region' : ' East Africa '} ,
+                          'Rwanda' : {'Capital' : ' Kigali ', 'Linguafrancea' : ' English, Kinyarwanda ', 'GDP' : ' $14B', 'Region' : ' East Africa '}, 
+                          'Burundi' : {'Capital' : ' Getiga ', 'Linguafrancea' : ' Kirundi, French ', 'GDP' : ' $3.5B', 'Region' : ' East Africa '},
+                          'South Sudan' : {'Capital' : ' Juba', 'Linguafrancea' : ' English ', 'GDP' : ' $4B', 'Region' : ' East Africa '},
+                          'Ethiopia' : {'Capital' : ' Addis Ababa ', 'Linguafrancea' : ' Amharic ', 'GDP' : '$120B', 'Region' : ' East Africa '},
+                          'Eritrea' : {'Capital' : 'Asmara ', 'Linguafrancea' : ' Tigrinya, Arabic ', 'GDP' : '$2.3B', 'Region' : ' East Africa '},
+                          'Djibouti' : {'Capital' : 'Djibouti ( city ) ', 'Linguafrancea' : ' French, Arabic ', 'GDP' : '$3.8B', 'Region' : ' East Africa '},
+                          'Somalia' : {'Capital' : ' Mogadishu ', 'Linguafrancea' : ' Somali, Arabic ', 'GDP' : '$7.6B', 'Region' : ' East Africa '},
+                          'Comoros' : {'Capital' : ' Moroni ', 'Linguafrancea' : ' Comorian, Arabic, French ', 'GDP' : '$1.6B', 'Region' : ' East Africa '},
+                          'Seychelles' : {'Capital' : ' Victoria ', 'Linguafrancea' : ' Seychellois Creole, French, English ', 'GDP' : '$1.7B', 'Region' : ' East Africa '},
+                          'Mauritius' : {'Capital' : ' Port Louis ', 'Linguafrancea' : ' English, French, Creole ', 'GDP' : '$15B', 'Region' : ' East Africa '},
+                          'Madagascar' : {'Capital' : ' Antanarivo ', 'Linguafrancea' : ' Malagasy, French ', 'GDP' : '$14B', 'Region' : ' East Africa '}, } 
+
+print(africa)
+
+
+for country, info in africa.items():
+    print(f'''In the country {country} the language spoken there is {info['Linguafrancea']}, 
+    and the capital is {info ['Capital']}  the GDP is {info['GDP']} and this country is in the {info['Region']} region of africa. ''')
